@@ -27,8 +27,12 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="bg-cream py-20 lg:py-28">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10">
+    <section id="services" className="relative bg-gradient-to-b from-cream to-cream-dark/40 py-20 lg:py-28">
+      <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
+        <div className="absolute left-0 top-1/3 h-[400px] w-[400px] rounded-full bg-teal/4 blur-[120px]" />
+      </div>
+
+      <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
         <div className="mb-12 max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-widest text-teal">
             Services
@@ -55,10 +59,10 @@ export default function Services() {
 
         <div className="mt-10">
           <a
-            href="#services"
+            href="#packages"
             className="group inline-flex items-center gap-1.5 text-sm font-medium text-teal transition-colors hover:text-teal-dark"
           >
-            Explore all services
+            See our packages
             <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
           </a>
         </div>

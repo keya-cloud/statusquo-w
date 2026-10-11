@@ -1,4 +1,4 @@
-import { ArrowUpRight, ExternalLink, MoreHorizontal } from 'lucide-react';
+import { ArrowUpRight, ExternalLink, MoveHorizontal as MoreHorizontal } from 'lucide-react';
 
 const elsaPortrait = '/images/Screenshot_2026-10-10_012828.png';
 const davidPortrait = '/images/Screenshot_2026-10-10_013040.png';
